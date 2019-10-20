@@ -26,7 +26,7 @@ You can either create a folder using Finder (macOS) or running the code below on
 mkdir project-todo-v1
 ```
 
-Then download, extract, copy and paste the files from this repository on you project's folder. If you already have Git installed on your machine, you can clone this project using the command below.
+Then download, extract, copy and paste the files from this repository on you project's folder. If you already have Git installed on your machine, you can clone this project using the command below. If you haven't installed Git yet, just download the files by clicking the button on the top right corner of this page "Clone or download" then "Download as ZIP".
 
 ```
 $ git clone git@github.com:mokaninja/project-todo-v1.git
