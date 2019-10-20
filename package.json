@@ -1,0 +1,20 @@
+{
+  "name": "todo-project-v1",
+  "version": "1.0.0",
+  "description": "Simple To-do List App built with NodeJS, Express and MongoDB for learning purposes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "MokaNinja",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "mongodb": "^3.3.3",
+    "sanitize-html": "^1.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
