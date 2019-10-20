@@ -26,6 +26,8 @@ You can either create a folder using Finder (macOS) or running the code below on
 mkdir project-todo-v1
 ```
 
+Then download, extract, copy and paste the files from this repository on you project's folder.
+
 Now let's open our text editor and install our app's dependencies. If you're using VSCode2, click on "View" then click on "Terminal".
 
 Step 1 - Install app dependencies
