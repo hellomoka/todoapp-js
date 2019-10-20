@@ -1,6 +1,6 @@
 # Simple Node.JS To-do App
 
-This is small and fairly simple to-do app built using Node.JS, Express and MongoDB.
+This is a small and fairly simple to-do app built using Node.JS, Express and MongoDB.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them?
 
-To get this project up and running you must have access to a computer with admin permission to install new files, a code editor (Visual Code, Sublime, etc), Node.JS, NPM and Git installed. 
+To get this project up and running you must have access to a computer that you're able to install new files. You'll need a code editor (Visual Code, Sublime, etc), Node.JS, NPM, Git and Heroku CLI installed. 
 
 You'll also need a free [MongoDB Atlas](https://www.mongodb.com) account. Make sure to replace the connectionString on [browser.js:31:101](browser.js) file with your own database user and password info (mongodb+srv://<user>:<password>@cluster0-dckyu.mongodb.net/test?retryWrites=true&w=majority).
 
@@ -20,7 +20,7 @@ How to get your development environment up and running?
 
 First, let's create a folder for our project. On this particular example, I've used Visual Studio Code 2 and created a folder named "project-todo-v1".
 
-You can either create a folder using Finder (macOS) or running the below code on the Terminal.
+You can either create a folder using Finder (macOS) or running the code below on the Terminal.
 
 ```
 mkdir project-todo-v1
