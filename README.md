@@ -12,9 +12,7 @@ What things you need to install the software and how to install them?
 
 To get this project up and running you must have access to a computer that you're able to install new files. You'll need a code editor (Visual Code, Sublime, etc), Node.JS, NPM, Git and Heroku CLI installed. 
 
-You'll also need a free [MongoDB Atlas](https://www.mongodb.com) account. Make sure to replace the connectionString on [browser.js:31:101](browser.js) file with your own database user and password info (see the example below)
-
-<!-- mongodb+srv://<USER>:<PASSWORD>@cluster0-dckyu.mongodb.net/test?retryWrites=true&w=majority -->
+You'll also need a free [MongoDB Atlas](https://www.mongodb.com) account. Make sure to replace the connectionString on [browser.js:31:101](browser.js) file with your own database user and password info.
 
 ### Installing
 
