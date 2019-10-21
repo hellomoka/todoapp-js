@@ -1,8 +1,6 @@
 # Simple Node.JS To-do App
 
-A small and fairly simple to-do app built using Node.JS, Express and MongoDB.
-
-[To-do App](docs/project-todo-v1.png)
+This is a small and fairly simple to-do app built using Node.JS, Express and MongoDB.
 
 ## Getting Started
 
