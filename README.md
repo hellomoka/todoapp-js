@@ -107,5 +107,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* This project was created based on [Brad Schiff's](https://github.com/LearnWebCode) course on Udemy [Learn JavaScript: Full-Stack from Scratch](https://www.udemy.com/course/learn-javascript-full-stack-from-scratch/)
-* If you're interested on learning Javascript language, I strongly suggest that you take a look on Brad's course.
+* This project was created for learning purposes only
