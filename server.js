@@ -3,19 +3,23 @@ let helmet = require('helmet')
 let mongodb = require('mongodb')
 let sanitizeHTML = require('sanitize-html')
 
+// App
 let app = express()
 app.use(helmet())
 let db
 
+// Server Port
 let port = process.env.PORT
 if (port == null || port == "") {
   port = 3000
+  console.log(`Server running on port ${port}`)
 }
 
+// Express Config - Add form values to body object then body object to request's values
 app.use(express.json())
-app.use(express.urlencoded({ extended: false })) // Tell Express to add all form values to the body object and add the body object to the request value (isn't default)
-console.log(`Server running on port ${port}`)
+app.use(express.urlencoded({ extended: false })) 
 
+// DOM Passowrd Function
 function passwordProtected(req, res, next) {
   res.set('WWW-Authenticate', 'Basic realm="Simple To-do App"')
   console.log(req.headers.authorization)
@@ -26,8 +30,10 @@ function passwordProtected(req, res, next) {
   }
 }
 
+// Express Config - Set public folder
 app.use(express.static('public'))
 
+// MongoDB Connection
 let connectionString = 'mongodb+srv://<user>:<password>@<cluster-name>-dckyu.mongodb.net/test?retryWrites=true&w=majority'
 mongodb.connect(connectionString, {
   useNewUrlParser: true,
@@ -38,8 +44,10 @@ mongodb.connect(connectionString, {
   console.log(`Successfully connected to the database`)
 })
 
+// DOM Password
 app.use(passwordProtected)
 
+// Routes
 app.get('/', function (req, res) {
   db.collection('items').find().toArray(function (error, items) {
     res.send(`
@@ -69,12 +77,20 @@ app.get('/', function (req, res) {
       </ul>
       
     </div>
+
+    <!--  Turn input items to JSON string  -->
     <script>
     let items = ${JSON.stringify(items)}
     </script>
+
+    <!--  Route  -->
     <script src="/browser.js"></script>
+
+    <!--  Run Axios via CDN  -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
   </body>
+
   </html>
   `)
   })
