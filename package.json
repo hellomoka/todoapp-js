@@ -1,7 +1,7 @@
 {
-  "name": "todo-project-v1",
+  "name": "todoapp-js",
   "version": "1.0.0",
-  "description": "Simple To-do List App built with NodeJS, Express and MongoDB for learning purposes",
+  "description": "Extremely simple To-do App built with NodeJS, Express and MongoDB for learning purposes.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
