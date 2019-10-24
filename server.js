@@ -78,7 +78,7 @@ app.get('/', function (req, res) {
       
     </div>
 
-    <!--  Turn input items to JSON string  -->
+    <!--  Turn input items into JSON strings  -->
     <script>
     let items = ${JSON.stringify(items)}
     </script>
