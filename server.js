@@ -28,7 +28,7 @@ function passwordProtected(req, res, next) {
 
 app.use(express.static('public'))
 
-let connectionString = 'mongodb+srv://<user>:<password>@cluster0-dckyu.mongodb.net/test?retryWrites=true&w=majority'
+let connectionString = 'mongodb+srv://<user>:<password>@<cluster-name>-dckyu.mongodb.net/test?retryWrites=true&w=majority'
 mongodb.connect(connectionString, {
   useNewUrlParser: true,
   useUnifiedTopology: true
