@@ -59,7 +59,7 @@ $ git config --global user.name "YOUR-HEROKU-USERNAME"
 $ git config --global user.email "YOUR-HEROKU-ACCOUNT-EMAIL"
 ```
 
-Step 2 - Heroku Login (you'll be asked to cofirm your username and password to login)
+Step 2 - Heroku Login (you'll be asked to confirm your username and password to login)
 ```
 $ heroku login
 ```
