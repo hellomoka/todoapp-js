@@ -29,7 +29,7 @@ mkdir project-todo-v1
 Then download, extract, copy and paste the files from this repository on you project's folder. If you already have Git installed on your machine, you can clone this project using the command below. If you haven't installed Git yet, just download the files by clicking the button on the top right corner of this page "Clone or download" then "Download as ZIP".
 
 ```
-$ git clone git@github.com:mokaninja/project-todo-v1.git
+$ git clone git@github.com:hellomoka/project-todo-v1.git
 ```
 
 Now let's open our text editor and install our app's dependencies. If you're using VSCode2, click on "View" then click on "Terminal".
@@ -99,7 +99,7 @@ That's it! Now you can go to your app URL and test it.
 
 ## Authors
 
-* **Moa Torres** - [Moka.Ninja](https://github.com/mokaninja)
+* **Moa Torres** - [HelloMoka](https://github.com/hellomoka)
 
 ## License
 
